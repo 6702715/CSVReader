@@ -20,5 +20,6 @@ else
 {
     Console.ForegroundColor = ConsoleColor.Red;
     System.Console.WriteLine("The file " + path + " does not exist!");
+    System.Console.WriteLine("____________________________________");
     Console.ResetColor();
 }
